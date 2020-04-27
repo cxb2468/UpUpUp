@@ -14,7 +14,6 @@ public class MainFrame extends JFrame {
         Container c = getContentPane();
         c.add(p);//把面板添加到主容器中
         addKeyListener(p);//添加键盘监听
-
     }
 
     public static void main(String[] args) {
